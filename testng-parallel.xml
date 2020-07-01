@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel TestSuite" parallel="methods" thread-count="2">
+<test name="Test 1">
+	<classes>
+		<class name="com.testngassignment.TestCalculator"></class>
+	</classes>
+</test>
+<test name="Test 2">
+	<classes>
+		<class name="com.testngassignment.TestCalculator2"></class>
+	</classes>
+</test>
+</suite>
+bussinessCode 
+Token_BusinessCode
+
+Card Id ==> 44125873852316f2b4d4d796c344e38756339654972776f663745446e6d4c32486f455a4165374a476858343d
+Token_CountryCode
